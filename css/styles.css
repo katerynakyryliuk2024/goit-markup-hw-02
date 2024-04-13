@@ -7,6 +7,7 @@ a{
 }
 button{
     cursor: pointer;
+    font-family: inherit;
 }
 body{
     font-family: 'Roboto', sans-serif ;
@@ -26,7 +27,6 @@ body{
     color: #2e2f42;
 }
 .menu-link {
-font-family: "Roboto", sans-serif;
  font-weight: 500;
  font-size: 16px;
 line-height: 1.5;
@@ -40,14 +40,66 @@ color:#404bbf ;
 .menu-link-studio:active,
 .menu-link-studio:hover,
 .menu-link-studio:focus {
-text-decoration: underline
+text-decoration: underline;
 color: #404bbf;
 }
 .menu-link-studio {
-font-family: "Roboto", sans-serif;
  font-weight: 500;
  font-size: 16px;
  line-height: 1.5;
  letter-spacing: 0.02em;
  color: #2e2f42;
+}
+.address {
+ font-style: normal;
+}
+.address-link {
+ font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+.address-link:hover,
+.address-link:focus {
+  color: #404bbf;  
+}
+.hero {
+background: #2e2f42;
+}
+.hero-title {
+font-size: 56px;
+line-height: 1.07;
+ letter-spacing: 0.02em;
+ text-align: center;
+ color: #ffff;
+}
+.hero-button {
+font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.04em;
+ color: #ffff;
+ background-color: #4d5ae5;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;  
+}
+.benefits-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+ color: #2e2f42;
+}
+.benefits-text {
+font-weight: 400;
+ font-size: 16px;
+ line-height: 1.5;
+ letter-spacing: 0.02em;
+ color: #434455;
+}
+.team {
+ background-color: #f4f4fd;
 }
