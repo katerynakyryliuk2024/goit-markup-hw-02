@@ -37,19 +37,6 @@ line-height: 1.5;
 .menu-link:focus {
 color:#404bbf ;
 }
-.menu-link-studio:active,
-.menu-link-studio:hover,
-.menu-link-studio:focus {
-text-decoration: underline;
-color: #404bbf;
-}
-.menu-link-studio{
- font-weight: 500;
- font-size: 16px;
- line-height: 1.5;
- letter-spacing: 0.02em;
- color: #2e2f42;
-}
 .address{
  font-style: normal;
 }
@@ -101,6 +88,16 @@ font-weight: 400;
 .team{
  background-color: #f4f4fd;
 }
+.team-title {
+font-size: 36px;
+line-height: 1.11;
+ letter-spacing: 0.02em;
+ text-align: center;
+color: #2e2f42;
+}
+.team-list-item {
+background-color: #ffff;   
+}
 .team-member {
 font-weight: 500;
 font-size: 20px;
@@ -143,6 +140,8 @@ letter-spacing: 0.02em;
  line-height: 1.11;
 letter-spacing: 0.02em;
 color: #2e2f42;
+text-align: center;
+text-transform: capitalize;
 }
 .our-portfolio-item {
 font-weight: 500;
